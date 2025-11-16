@@ -16,7 +16,7 @@ export function onIdTokenChanged(cb) {
 }
 
 export async function signInWithGoogle() {
-  const provider = new GoogleAuthProvider();
+  const provider = new GoogleAuthProvider();`1`
 
   try {
     await signInWithPopup(auth, provider);
